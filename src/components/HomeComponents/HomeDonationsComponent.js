@@ -25,9 +25,9 @@ function HomeDonations() {
                             </div>
                             <h3 class="col-title">Donate Food</h3>
                             <div class="col-details">
-                                <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
+                                <p>There are various food banks around the PA where you can help donate to the families in need.</p>
                             </div>
-                            <Link to="/foodbank" className="btn btn-primary"> Find out where </Link>
+                            <Link to="/foodbank" className="btn btn-primary"> Find out where these various food banks are located</Link>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
@@ -37,7 +37,7 @@ function HomeDonations() {
                             </div>
                             <h3 class="col-title">Donate Money</h3>
                             <div class="col-details">
-                                <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
+                                <p>Donations go towards food and school supplies to families in need.</p>
                             </div>
                             <form action="https://www.paypal.com/donate" method="post" target="_top">
 <input type="hidden" name="business" value="nesstex@gmail.com" />
