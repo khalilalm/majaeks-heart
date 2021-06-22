@@ -27,7 +27,7 @@ function HomeDonations() {
                             <div class="col-details">
                                 <p>There are various food banks around the PA where you can help donate to the families in need.</p>
                             </div>
-                            <Link to="/foodbank" className="btn btn-primary"> Find out where these various food banks are located</Link>
+                            <Link to="/foodbank" className="btn btn-primary"> Food Banks</Link>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
