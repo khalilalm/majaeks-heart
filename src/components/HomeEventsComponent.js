@@ -19,7 +19,7 @@ function UpcomingEvents() {
                             <div className="col ml-5">
                                 <div className="images shadow-1-strong mb-4 align-items-center">
                                     <img src="/assets/images/Gala.png" alt="Gala" className="rounded mx-auto d-block"></img>
-                                    <Link to="/#">Majaek's Heart Annual Gala</Link>
+                                    <Link to="/https://www.facebook.com/photo/?fbid=193093112734495&set=a.120223690021438">Majaek's Heart Annual Gala</Link>
                                 </div>
                             </div>
                         </div>
