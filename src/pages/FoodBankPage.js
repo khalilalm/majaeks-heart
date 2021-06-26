@@ -17,15 +17,21 @@ function FoodBank() {
             <div className="row">
                 <div className="col">
                     <div>
-                        <h3>Zona de Cuba - Just and example</h3>
+                        <h3>Food Distribution Center Feeding Families</h3>
                         <p>
-                            558 Grand Concourse<br />
-                            Bronx, NY 10451
+                        110 View Ct, Mt Pocono, PA 18344
                         </p>
                     </div>
+                    <div>
+                        <h3>Pocono Mountain Ecumenical Hunger Ministry</h3>
+                        <p>
+                        5570 Memorial Blvd, Tobyhanna, PA 18466
+                        </p>
+                    </div>
+                   
                 </div>
-                <div className="col">
-                    <LoadScript googleMapsApiKey='AIzaSyAuHol6C3Fm5V789n6Hf1VGtdiFLbBgpZM'>
+                {/* <div className="col">
+                    <LoadScript googleMapsApiKey='AIzaSyAOhYMEA3ODWX3r7yGkzkNT5Pn9x4WVdWQ'>
                         <GoogleMap
                             mapContainerStyle={mapStyles} 
                             zoom={13} 
@@ -33,13 +39,13 @@ function FoodBank() {
                         >
                             {
                                 <Marker key="MHFoodBank" position={{ 
-                                    lat: 40.81892,
+                                    lat: 40.81891,
                                     lng: -73.92626
                                 }} />
                             }
                         </GoogleMap>
                     </LoadScript>
-                </div>
+                </div> */}
             </div>
         </div>
         

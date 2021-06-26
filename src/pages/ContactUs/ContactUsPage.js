@@ -1,6 +1,8 @@
 import React from 'react';
 import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 // import { Breadcrumb, BreadcrumbItem, Form, FormGroup, Input, Button, Container, Row, Col, Label } from 'reactstrap';
+import Form from 'customisable-contact-form'
+import {Heading, FirstName, LastName, Email, Message, SubmitButton} from 'customisable-contact-form'
 import { Link } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 
