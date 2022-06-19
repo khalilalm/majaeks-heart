@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^12.1.10",
     "bootstrap": "^4.5.3",
     "bootstrap-social": "^5.1.1",
+    "customisable-contact-form": "^1.0.0",
     "font-awesome": "^4.7.0",
     "google-maps-react": "^2.0.6",
     "node-sass": "^4.14.1",
@@ -16,13 +17,14 @@
     "react": "^17.0.1",
     "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.1",
-    "react-hook-form": "^7.4.0",
+    "react-hook-form": "^7.9.0",
     "react-hook-use-state": "^1.1.0",
     "react-mailchimp-form": "^1.0.2",
     "react-popper": "^2.2.4",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "reactstrap": "^8.9.0",
+    "styled-components": "^5.3.0",
     "web-vitals": "^0.2.4"
   },
   "scripts": {

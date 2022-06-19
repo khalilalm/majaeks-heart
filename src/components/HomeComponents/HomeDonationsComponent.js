@@ -27,7 +27,7 @@ function HomeDonations() {
                             <div class="col-details">
                                 <p>There are various food banks around the PA where you can help donate to the families in need.</p>
                             </div>
-                            <Link to="/foodbank" className="btn btn-primary"> Find out where </Link>
+                            <Link to="/foodbank" className="btn btn-primary"> Food Banks</Link>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
@@ -47,21 +47,9 @@ function HomeDonations() {
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
 <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
 </form>
-
                         </div>
                     </div>
-                    {/* <div class="col-md-3 col-sm-6">
-                        <div class="donate-col">
-                            <div class="col-icon-wrapper">
-                                <img src="assets/images/icons/programs-icon.png" alt="" />
-                            </div>
-                            <h3 class="col-title">our programs</h3>
-                            <div class="col-details">
-                                <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
-                            </div>
-                            <a href="#" class="btn btn-primary"> Read more </a>
-                        </div>
-                    </div> */}
+                    
                     
                 </div>
             </div>
