@@ -1,0 +1,226 @@
+.jumbotron {
+  background-color: black;
+  margin: 0;
+  padding: 20px;
+}
+
+.body {
+  font-family: "Helvetica", "arial", sans-serif;
+  color: #555;
+}
+
+main {
+  background-color: black;
+}
+
+h1,
+h2,
+strong {
+  color: #333;
+}
+
+/*.navbar {
+    background-color: black;
+}*/
+
+.icon {
+  height: 110px;
+  background: url("/src/Icon-Background.png");
+}
+
+.navbar {
+  height: 120px;
+  /*background: url("/src/Majaeks-Background.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+  /*background-color: black;*/
+  /*background: url("/src/Icon-Background.png");*/
+  /* background-image: url("/src/Navbar-Background4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+.link {
+  color: #fff;
+}
+
+.link:hover {
+  color: #00f;
+}
+
+.site-footer {
+  height: 350px;
+  /*background: url("/src/Majaeks-Background.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+  background-color: black;
+  /*background: url("/src/Icon-Background.png");*/
+}
+
+.site-header {
+  background-color: black;
+}
+
+.boardMember {
+  width: 20rem;
+  margin-top: 40px;
+}
+
+.boardMemberQuote {
+  font-size: smaller;
+}
+
+.mission {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(212, 213, 215, 0.5);
+  font-weight: 400;
+  padding: 10px;
+}
+
+/* Centered text for "Stay Informed" */
+.centeredInformed {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centeredInformed .button {
+  height: 2.5em;
+}
+
+.copyright {
+  font-size: smaller;
+  color: rgba(212, 213, 215, 0.5);
+}
+
+/* Style the input container */
+.input-container {
+  display: flex;
+  width: 100%;
+  height: 38px;
+  /* margin-bottom: 15px; */
+}
+
+/* Style the form icons */
+.icon {
+  /* padding-top: 30%;
+margin: 0 0 0 0;
+border: 0px;
+background: rgb(255, 131, 30);
+color: white;
+min-width: 50px;
+height: 50px;
+text-align: center; */
+  background: rgb(255, 131, 30);
+  color: white;
+}
+
+/* Style the input fields */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+.member-card {
+  min-width: 20%;
+  width: 256px;
+  height: 550px;
+  border-radius: 0.5rem;
+  box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+  padding-bottom: 1rem;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  border-radius: 0.5rem 0.5rem 0 0;
+  object-fit: cover;
+}
+
+.card-img-top ~ * {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.section-home {
+  margin: 30px 0;
+}
+
+/* .events .title {
+    background-color: black;
+    color: white;
+} */
+
+.title-style-1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.title-under {
+  display: block;
+  margin: 5px auto;
+  background: #1f76bd;
+  height: 1px;
+  width: 280px;
+}
+
+/*   
+          /* Causes 
+          ================================= */
+.cause-carousel {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.carousel-caption {
+  color: rgb(228, 222, 222);
+}
+/* iphone X , XS, 11 Pro, 12 Mini */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+ 
+  .col text-center{
+    position: absolute;
+    left: 50%; 
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding:200px
+
+ 
+ }
+ .centered{
+   margin: 200px;
+ }
+ .row my-2{
+  position: absolute;
+  left: 50%; 
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding:200px
+ }
+ .img-fluid{
+   height:300px;
+
+ }
+
+}
